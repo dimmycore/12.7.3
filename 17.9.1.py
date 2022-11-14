@@ -13,7 +13,7 @@ try:
     if 0 < number < 101 and number % 1 == 0:
         M.append(number)
         M.sort()
-        print("Список после сортировки: ", M)
+        print("список после сортировки: ", M)
     else:
         print("неправильное число")
 except ValueError:
